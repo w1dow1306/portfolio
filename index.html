@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <!-- IMportting js librarires -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TimelineMax.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"
+    integrity="sha512-aNMyYYxdIxIaot0Y1/PLuEu3eipGCmsEUBrUq+7aVyPGMFH8z0eTP0tkqAvv34fzN6z+201d3T8HPb1svWSKHQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <!-- ############################################################################################## -->
+  <!-- ?Importing style sheets -->
+
+  <link rel="stylesheet" href="/style/nvbr.css">
+  <link rel="stylesheet" href="/style/gallery.css">
+  <link rel="stylesheet" href="/style/home.css">
+  <link rel="stylesheet" href="/style/about.css">
+
+  <!-- ############################################################################################## -->
+
+
+</head>
+
+<style>
+html{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+</style>
+
+
+<!-- /// BOdy? -->
+
+<body onscroll="chngnav">
+  <!-- navbar -->
+  <div class="nvbr">
+    <div class="link">Home</div>
+    <div class="link">Gallery</div>
+    <div class="link">Info</div>
+  </div>
+
+  <!-- ############################################################################################## -->
+
+  <!-- FIRST PAGE -->
+  <section class="main">
+    <div class="txt">
+      <span class="quote"></span>
+      <div id="infotxt">
+        <span id="itxt">!> &nbsp;&nbsp;Webdeveloper</span>
+      </div>
+    </div>
+    <img src="/boy.svg" alt="" srcset="" class="boy" />
+    <svg class="curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" >
+      <path fill="#0099ff" fill-opacity="1"
+        d="M0,224L34.3,186.7C68.6,149,137,75,206,69.3C274.3,64,343,128,411,170.7C480,213,549,235,617,224C685.7,213,754,171,823,160C891.4,149,960,171,1029,160C1097.1,149,1166,107,1234,106.7C1302.9,107,1371,149,1406,170.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+
+
+  <!-- ############################################################################################## -->
+
+
+
+
+  <!-- Gallery page -->
+  <section class="gallery">
+    <h1 class="wrk heading">My work</h1>
+    <div class="gcontainer">
+      <div class="gitem ">
+        <div class="imgcontainer">
+          <img width="32" height="32" src="https://img.icons8.com/windows/32/like--v1.png" alt="like--v1" />
+        </div>
+        <p class="pname">Project name</p>
+        <p class="pname">Language: Nodejs</p>
+        <p class="dt">Era: January 2024</p>
+      </div>
+      <div class="gitem ">
+        <div class="imgcontainer">
+          <img width="32" height="32" src="https://img.icons8.com/windows/32/like--v1.png" alt="like--v1" />
+        </div>
+        <p class="pname">Project name</p>
+        <p class="pname">Language: Nodejs</p>
+        <p class="dt">Era: January 2024</p>
+      </div>
+      <div class="gitem ">
+        <div class="imgcontainer">
+          <img width="32" height="32" src="https://img.icons8.com/windows/32/like--v1.png" alt="like--v1" />
+        </div>
+        <p class="pname">Project name</p>
+        <p class="pname">Language: Nodejs</p>
+        <p class="dt">Era: January 2024</p>
+      </div>
+      <div class="gitem ">
+        <div class="imgcontainer">
+          <img width="32" height="32" src="https://img.icons8.com/windows/32/like--v1.png" alt="like--v1" />
+        </div>
+        <p class="pname">Project name</p>
+        <p class="pname">Language: Nodejs</p>
+        <p class="dt">Era: January 2024</p>
+      </div>
+      <div class="gitem ">
+        <div class="imgcontainer">
+          <img width="32" height="32" src="https://img.icons8.com/windows/32/like--v1.png" alt="like--v1" />
+        </div>
+        <p class="pname">Project name</p>
+        <p class="pname">Language: Nodejs</p>
+        <p class="dt">Era: January 2024</p>
+      </div>
+      <div class="gitem">
+        <div class="imgcontainer">
+          <img width="32" height="32" src="https://img.icons8.com/windows/32/like--v1.png" alt="like--v1" />
+        </div>
+        <p class="pname">Project name</p>
+        <p class="pname">Language: Nodejs</p>
+        <p class="dt">Era: January 2024</p>
+      </div>
+      <div class="gitem">
+        <div class="imgcontainer">
+          <img width="32" height="32" src="https://img.icons8.com/windows/32/like--v1.png" alt="like--v1" />
+        </div>
+        <p class="pname">Project name</p>
+        <p class="pname">Language: Nodejs</p>
+        <p class="dt">Era: January 2024</p>
+      </div>
+      <div class="gitem">
+        <div class="imgcontainer">
+          <img width="32" height="32" src="https://img.icons8.com/windows/32/like--v1.png" alt="like--v1" />
+        </div>
+        <p class="pname">Project name</p>
+        <p class="pname">Language: Nodejs</p>
+        <p class="dt">Era: January 2024</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ############################################################################################## -->
+
+  <section class="info">
+    <h1 class="heading">About me!</h1>
+    <video src="/panda.webm" class="panda" autoplay="true" loop="true"></video>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1502 -260.786 1503 324.9">
+      <path class="pth"
+        d="M 0 0 C -136 -203 -318 -203 -462 -2 S -705 -131 -834 -118 Q -1137 -29 -1209 -186 S -1281 -354 -1501 -183"
+        stroke="black" stroke-width="1" fill="none" />
+    </svg>
+
+    <div class="infocard">
+      <div class="pfp"></div>
+      <div class="inf">
+        <p>Name:Avinash khalkho</p>
+        <p>Education: HighSchool</p>
+        <p>Born: 13/07/06 </p>
+        <p>Location: Ranchi,India </p>
+        <p>Insta👉 <a href="https://www.instagram.com/_avinash__1306/"
+            style="color: rgb(241, 163, 19);">@_avinash1306</a> </p>
+      </div>
+      <div class="hollow-circle"></div>
+    </div>
+
+    <div class="firstskill">
+      <div class="inf">
+        <p>
+        <p style="font-size: 1.5rem; text-decoration: overline; padding:1px 10px ;">2019 : </p>
+        Fascinated by computers, I began with <u><b>Python</b></u> but soon transitioned to <u><b>JavaScript</b></u> for
+        its dynamic versatility and widespread application in web development.
+        </p>
+      </div>
+      <div class="hollow-circle"></div>
+    </div>
+
+
+
+
+    <div class="secondskill">
+      <div class="inf">
+        <p>
+        <p style="font-size: 1.5rem; text-decoration: overline; padding:1px 10px ;">2020 : </p>
+        I started learining and developed my skills on webdev and CyberSecurity. I created my github account and started
+        uploading my projects there</p>
+        <p><a href="https://github.com/w1dow1306"
+            style="text-decoration: underline; color: rgb(255, 221, 53);">@w1dow1306</a></p>
+      </div>
+      <div class="hollow-circle"></div>
+    </div>
+
+    <div class="thirdskill">
+      <div class="hollow-circle"></div>
+      <div class="inf">
+        <p>
+        <p style="font-size: 1rem;"> I make personal projects. I am interested in  ML AI with python and DSA with java
+          I believe i am very good when working under pressure and not so good when stress free. <br>
+          💙 JavaScript  &nbsp;  |<br>
+          💙 Python &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;|<br>
+          💙 Java &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | <br>
+        <div class="hollow-circle"></div>
+
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+
+
+  <footer class="ftr">
+
+  </footer>
+</body>
+<script src="/logic/index.js"> </script>
+<script src="/logic/animations.js"></script>
+<script src="/logic/about.js"></script>
+</html>

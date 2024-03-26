@@ -1,0 +1,64 @@
+.main {
+    overflow-x: hidden;
+    z-index: -1;
+    background-color: var(--bg);
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.curve {
+    align-self: last baseline;
+    display: inline;
+    z-index: 1;
+}
+
+.boy {
+    position: absolute;
+    right: 4%;
+    height: 61%;
+    width: 30%;
+    top: 17%;
+    cursor: pointer;
+    z-index: 0;
+    background: none !important;
+}
+
+.txt {
+    flex-direction: column;
+    position: absolute;
+    top: 11%;
+    left: 4%;
+    width: 34%;
+    height: 45%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.quote {
+    width: 100%;
+    font-size: 2.9rem;
+    font-weight: bold;
+    font-family: "Kreon", serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+#infotxt {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--tcolor);
+    height: 20%;
+    width: 100%;
+    justify-self: flex-end;
+}
+
+#infotxt>span {
+    font-size: 1.5rem;
+    font-family: "Kreon", serif;
+}

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  :root {
+    --bg: #1e1e1e; /* Blue */
+    --secondary-color: #6c757d; /* Gray */
+    --tcolor: rgb(91, 175, 248);
+    --btn-color:#ffcd5d;
+  }
+  body{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .nvbr {
+    z-index: 1000;
+    border-bottom: 1px solid rgb(113, 109, 109);
+    border-radius: 1%;
+    /* background: #433b3b80; */
+    background: #ffffff3d;
+    box-shadow: #1f1f20;
+    align-self: center;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    height: 7.5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7%;
+    border: 1px solid rgb(137, 124, 124);
+    color: white;
+    height: 77%;
+    text-align: center;
+    margin: 0.5rem;
+    border-radius: 2%;
+    cursor: pointer;
+  }
+
+  .link:hover {
+    outline: none;
+    margin-top: 2%;
+    padding: 1.5% 0%;
+    background-color: var(--btn-color);
+    border: none;
+  }
+
+  .active-btn{
+    outline: none;
+    background-color: var(--btn-color);
+    margin-top: 2%;
+    padding: 1.5% 0%;
+    border: none;
+  }

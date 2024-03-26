@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "w1dow1306",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w1dow1306/portfolio.git"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
+  "bugs": {
+    "url": "https://github.com/w1dow1306/portfolio/issues"
+  },
+  "homepage": "https://github.com/w1dow1306/portfolio#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}

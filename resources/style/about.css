@@ -1,0 +1,142 @@
+.info {
+    /* Info page */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    background: rgb(78, 189, 84);
+}
+
+.infocard {
+    box-shadow: 3px 7px 20px 0px rgb(0 0 0 / 46%);
+    border: 1px solid white;
+    width: 13rem;
+    height: 15rem;
+    display: inline;
+    position: absolute;
+    justify-self: start;
+    top: 8%;
+    right: 10%;
+    align-self: end;
+    padding: 5px 5px;
+    background: #fffefe98;
+    opacity: 0%;
+}
+
+
+.heading {
+    color: rgba(255, 255, 255, 0.903);
+    font-size: 3rem;
+    text-decoration: underline;
+    margin: -0.5% 0%;
+}
+
+.pfp {
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url('/me.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.hollow-circle {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 57%);
+    width: 20px;
+    height: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.inf,
+.inf p,
+.inf a {
+    /* INfo card ke andar ka mamla */
+    text-align: left;
+    text-decoration: none;
+    color: #52504f;
+    font-family: cursive;
+}
+
+
+.pth {
+    /* LIne */
+    stroke: rgba(192, 233, 190, 0.822);
+    stroke-width: 3;
+}
+
+
+.panda {
+    /* Cute panda */
+    display: inline;
+    position: relative;
+    top: 50%;
+    align-self: end;
+}
+
+
+
+
+
+
+.firstskill {
+    border: 1px solid white;
+    width: 13rem;
+    height: 15rem;
+    display: inline;
+    position: absolute;
+    justify-self: start;
+    bottom: 25%;
+    right: 30%;
+    align-self: end;
+    padding: 5px 5px;
+    background: #ffffffea;
+    box-shadow: 3px 7px 20px 0px rgb(0 0 0 / 46%);
+    border-radius: 1%;
+    text-align: center;
+    opacity: 0%;
+}
+
+
+.secondskill {
+    opacity: 0%;
+    border: 1px solid white;
+    width: 13rem;
+    height: 15rem;
+    display: inline;
+    position: absolute;
+    justify-self: start;
+    top: 15%;
+    left: 38%;
+    align-self: end;
+    background: #ffffffea;
+    box-shadow: 3px 7px 20px 0px rgb(0 0 0 / 46%);
+    border-radius: 1%;
+}
+
+
+
+
+.thirdskill {
+    opacity: 0%;
+    border: 1px solid white;
+    width: 13rem;
+    height: 15rem;
+    display: inline;
+    position: absolute;
+    justify-self: start;
+    top: 42%;
+    left: 14%;
+    align-self: end;
+    background: #ffffffea;
+    box-shadow: 3px 7px 20px 0px rgb(0 0 0 / 46%);
+    border-radius: 1%;
+}

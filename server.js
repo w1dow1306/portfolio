@@ -13,4 +13,4 @@ page.get("/",(req,res)=>{
 page.listen(8000,()=>{
     console.log("The server is running on 80000");
 })
-export default app
+
